@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K. Siddhartha Reddy | Full Stack Developer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+
+    <header id="header">
+        <nav id="navbar">
+            <a href="#home" class="nav-logo">Siddhartha.dev</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section-container">
+            <div class="hero-content">
+                <h1 class="hero-title">K. Siddhartha Reddy</h1>
+                <h2 class="hero-tagline">
+                    Full Stack Developer | Data Scientist | ML Enthusiast <span class="type-effect"></span>
+                </h2>
+                <p class="hero-intro">
+                    I build powerful, data-driven web applications and AI tools that blend creativity and technology.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/350/1a1a2e/00bfff?text=K.S.R" alt="K. Siddhartha Reddy">
+            </div>
+        </section>
+
+        <section id="about" class="section-container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <span>Who I Am</span>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I’m passionate about creating real-world solutions using cutting-edge technologies. My expertise lies in full-stack development and data science, aiming to bridge the gap between data and decision-making through powerful applications.
+                    </p>
+                    <p>
+                        From responsive frontends with **Next.js** to robust backends with **Flask** and **MySQL**, and insightful data models with **Python**, I love bringing ideas to life.
+                    </p>
+                </div>
+                <div class="about-stack">
+                    <h3>My Tech Stack</h3>
+                    <div class="tech-icons">
+                        <i class="devicon-html5-plain" title="HTML5"></i>
+                        <i class="devicon-css3-plain" title="CSS3"></i>
+                        <i class="devicon-javascript-plain" title="JavaScript"></i>
+                        <i class="devicon-python-plain" title="Python"></i>
+                        <i class="devicon-flask-original" title="Flask"></i>
+                        <i class="devicon-mysql-plain" title="MySQL"></i>
+                        <i class="devicon-nextjs-original" title="Next.js"></i>
+                        <i class="devicon-react-original" title="React"></i>
+                        <i class="devicon-docker-plain" title="Docker"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <span>Recent Work</span>
+            </div>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/1f1f3a/00bfff?text=AI+Exam+Mentor" alt="AI Exam Mentor Project">
+                    <div class="card-content">
+                        <h3>AI Exam Mentor</h3>
+                        <p>An AI-powered platform to help students prepare for exams with personalized quizzes and feedback.</p>
+                        <div class="project-stack">
+                            <span>Flask</span>
+                            <span>React</span>
+                            <span>AI/ML</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-icon" title="GitHub Repo"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-icon" title="Live Demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/1f1f3a/00bfff?text=Hostel+Manager" alt="Hostel Management System">
+                    <div class="card-content">
+                        <h3>Hostel Management System</h3>
+                        <p>A full-stack web application to manage student check-ins, room allocations, and fees.</p>
+                        <div class="project-stack">
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-icon" title="GitHub Repo"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-icon" title="Live Demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/1f1f3a/00bfff?text=CSV+Analyzer" alt="CSV Analyzer Project">
+                    <div class="card-content">
+                        <h3>Streamlit CSV Analyzer</h3>
+                        <p>A data science tool built with Streamlit that allows users to upload a CSV and get instant data analysis.</p>
+                        <div class="project-stack">
+                            <span>Streamlit</span>
+                            <span>Python</span>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-icon" title="GitHub Repo"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-icon" title="Live Demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section-container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <span>Get In Touch</span>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's build something great.</h3>
+                    <p>Have a project idea or just want to chat? Feel free to reach out. I'm always open to new opportunities and collaborations.</p>
+                    <div class="contact-links">
+                        <a href="mailto:yourmail@gmail.com" class="contact-link-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>siddharthareddy0309@gmail.com</span>
+                        </a>
+                        <a href="tel:+91XXXXXXXXXX" class="contact-link-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9014969865 </span>
+                        </a>
+                        <a href="https://wa.me/919014969865" target="_blank" class="contact-link-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp Me</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit-btn">Send Message</button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 K. Siddhartha Reddy | Built with ❤️ using Flask, HTML, CSS, JS</p>
+    </footer>
+
+</body>
+</html>
